@@ -1,0 +1,16 @@
+[project]
+name = "strixcam-calibration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "numpy>=2.2.6",
+    "opencv-python>=4.11.0.86",
+    "picamera2>=0.3.27",
+]
+
+[dependency-groups]
+dev = [
+    "opencv-stubs>=0.0.11",
+]
